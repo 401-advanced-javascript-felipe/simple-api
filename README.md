@@ -6,4 +6,4 @@
 * [front-end](https://codesandbox.io/s/api-client-kcqy5)
 
 ### Assets
-[UML](./assets/uml.png)
+[UML](./assets)
