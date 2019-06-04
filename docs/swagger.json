@@ -27,15 +27,60 @@
           }
         }
       },
+      
       "post": {
+        "responses": {
+          "200": {
+            "description": "Returned post"
+          }
+        }
       }
     },
     "/categories/{id}": {
       "get": {
+        "parameters":[{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": integer
+          }
+        }],
+        "responses": {
+          "200": {
+            "description": "Returned categories ID",
+          }
+        }
       },
       "put": {
+        "parameters":[{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": integer
+          }
+        }],
+        "responses": {
+          "200": {
+            "description": "Returned put categories ID"
+          }
+        }
       },
       "delete": {
+        "parameters":[{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": integer
+          }
+        }],
+        "responses": {
+          "200": {
+            "description": "Return delete item"
+          }
+        }
       }
     }
   },

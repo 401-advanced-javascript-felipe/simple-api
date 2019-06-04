@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "groceries",
+      "display_name": "grosh",
+      "description": "to buy food"
+    },
+    {
+      "_id": 2,
+      "name": "pet store",
+      "display_name": "woof market",
+      "description": "food for dowgs"
+    }
+  ],
+  "products": [
+    {
+      "name": "apples",
+      "category_id": 1,
+      "_id": 1,
+      "display_name": "apps",
+      "description": "grows in trees"
+    },
+    {
+      "_id": 2,
+      "category_id": 2,
+      "name": "dog food",
+      "display_name": "much",
+      "description": "from a factory"
+    }
+  ]
+}
