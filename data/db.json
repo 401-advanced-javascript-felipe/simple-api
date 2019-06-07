@@ -16,14 +16,14 @@
   "products": [
     {
       "name": "apples",
-      "category_id": 1,
+      "category": "groceries",
       "_id": 1,
       "display_name": "apps",
       "description": "grows in trees"
     },
     {
       "_id": 2,
-      "category_id": 2,
+      "category": "pet store",
       "name": "dog food",
       "display_name": "much",
       "description": "from a factory"
